@@ -1,3 +1,7 @@
+
+*.csv
+output/
+
 # Prerequisites
 *.d
 
