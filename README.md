@@ -24,11 +24,11 @@ rosrun prophesee_tool bag2txt --input_bag=<input/bag/name> --output_dir=<save_di
 -    `images.txt`: image index and timestamp in `image/xxx.bmp`, format: idx ts 
 
 
-## Tool: raw2txt
+## Tool: raw2csv
 Convert a .raw file to a txt.  
 Modified from prophesee-ai.
 
 ### Usage
 ```bash
-rosrun prophesee_tool raw2txt -i <input/rawfile/name> -o <output/filename>
+rosrun prophesee_tool raw2csv -i <input/rawfile/name> -o <output/filename>
 ```

@@ -42,5 +42,5 @@ add_executable(bag2txt src/bag2txt.cpp)
 target_link_libraries(bag2txt ${catkin_LIBRARIES} ${OpenCV_LIBS} gflags MetavisionSDK::driver)
 
 
-add_executable(raw2txt src/raw2txt.cpp)
-target_link_libraries(raw2txt ${catkin_LIBRARIES} ${OpenCV_LIBS} MetavisionSDK::core MetavisionSDK::driver Boost::program_options)
+add_executable(raw2csv src/raw2csv.cpp)
+target_link_libraries(raw2csv ${catkin_LIBRARIES} ${OpenCV_LIBS} MetavisionSDK::core MetavisionSDK::driver Boost::program_options)
